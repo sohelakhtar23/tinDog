@@ -1,0 +1,163 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Ubuntu';
+  /* font-weight: bold; */
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features Section*/
+
+#features {
+  /* margin: 5rem 5rem; */
+  padding: 4.5%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.features-icon {
+  font-size: 3em;
+  color: Tomato;
+  padding-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Testimonialsx */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  /* padding-bottom: 3%; */
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+#pricing {
+  padding: 5rem;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call To Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+#cta h1{
+  font-family: Ubuntu;
+  font-weight: normal;
+}
+
+/* Footer */
+#footer{
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
