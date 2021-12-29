@@ -1,28 +1,20 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 #title {
-  background-color: #ff4c68;
-  color: #fff;
+  text-align: left;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: bold;
-}
-
+h1,
 h2 {
-  font-family: 'Montserrat';
-  font-weight: bold;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 h3 {
-  font-family: 'Ubuntu';
-  /* font-weight: bold; */
+  font-family: "Ubuntu";
   font-weight: 600;
   line-height: 1.5;
 }
@@ -31,17 +23,21 @@ p {
   color: #8f8f8f;
 }
 
+.big-heading {
+  font-size: 3.5rem;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
 
-/* Navigation bar */
+/* ------------------------------- Navigation bar -----------------------------------*/
 .navbar {
   padding: 0 0 3.5rem;
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -60,7 +56,7 @@ p {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-right: 30%;
+  right: 30%;
 }
 
 @media (max-width: 1028px) {
@@ -74,12 +70,11 @@ right: 30%;
   }
 }
 
-/* Features Section*/
+/* ------------------------------- Features Section ------------------------------- */
 
 #features {
   /* margin: 5rem 5rem; */
   padding: 4.5%;
-  text-align: center;
   position: relative;
   z-index: 1;
 }
@@ -98,10 +93,9 @@ right: 30%;
   background-color: #fff;
 }
 
-/* Testimonialsx */
-#testimonials {
-  background-color: #ef8172;
-  text-align: center;
+/* ------------------------------- Testimonials ------------------------------- */
+.coloured-section {
+  background-color: #ff4c68;
   color: #fff;
 }
 
@@ -115,10 +109,9 @@ right: 30%;
   margin: 20px;
 }
 
-#press {
+#testimonials, #press {
   background-color: #ef8172;
-  /* padding-bottom: 3%; */
-  text-align: center;
+  color: #fff;
 }
 
 .press-logo {
@@ -129,34 +122,24 @@ right: 30%;
 /* Pricing */
 .pricing-header {
   padding: 2rem;
-  text-align: center;
 }
 
 #pricing {
   padding: 5rem;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
-/* Call To Action */
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  color: #fff;
-}
+/* ------------------------------------ Call To Action ------------------------- */
 
-#cta h1{
+#cta h1 {
   font-family: Ubuntu;
   font-weight: normal;
 }
 
-/* Footer */
-#footer{
-  text-align: center;
-}
+/* ------------------------------------- Footer ------------------------------- */
 
 .social-icon {
   margin: 20px 10px;
